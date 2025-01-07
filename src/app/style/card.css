@@ -1,0 +1,76 @@
+.mcars{
+        display: flex;
+    grid-template-columns: repeat(4,1fr);
+    
+   
+    margin-top: 100px;
+   margin-left: 19%;
+ 
+ 
+  
+    
+  }
+
+  .car-card{
+    width:18%;
+    background-color: #F6F7FB;
+    margin-bottom: 20px;
+    margin-left: 12px;
+  border-style:solid;
+  border-color: rgb(243, 242, 242);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+cursor: pointer;
+  }
+
+
+ 
+  .car-card h3{
+    margin-top: 10px;
+    color: #FB2E86;    
+   
+    font-size: 25px;
+  }
+  .car-card p{
+    color: #151875;
+
+    font-size: 14px;
+   
+  }
+
+.car-card .price{
+font-size: 20px;
+font-weight: bold;
+
+color: #151875;
+
+}
+
+
+
+.car-card img{
+  width: 178px;
+  height:178px;
+border-radius: 8px;
+
+
+}
+
+
+.car-card:hover{
+    background-color: #473146;
+  
+}
+
+.gi{
+ color: #05E6B7;
+ 
+
+}
+.pi{
+    color: #FB2E86;
+}
+.b{
+    color: #00009D;
+}

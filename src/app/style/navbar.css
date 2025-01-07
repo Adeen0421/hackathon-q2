@@ -1,0 +1,77 @@
+body{
+    background-color:white;
+    margin: 0%;
+    }
+    .navbar{
+        background-color: blueviolet;
+        height:50px;
+        width:100%;
+        display: flex;
+       align-items: center;
+       caret-color: transparent;
+    color: white;
+    justify-content: space-evenly;
+}
+
+
+
+
+    .menu-bar ul{
+        list-style: none;
+        display: flex;
+        
+    }
+    .menu-bar ul li{
+     padding: 0px 10px;
+        
+    }
+    
+
+    .menu-bar ul li a, .ko77 li{
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        transition:all 0.3s;
+  
+    }
+    
+    .menu-bar ul li a:hover{
+        color:black;
+    }
+    .ko77 li:hover{
+        color:black;
+    }
+
+   .aa{
+    margin: 0.6;
+    display: flex;
+    flex-wrap:wrap-reverse;
+    vertical-align: baseline    ;
+   }
+   .info{
+    font-size: 18px;
+   }
+
+ 
+
+@media (max-width:860px){
+    .navbar ul li a{
+        font-size: 12px;
+        
+    }
+    
+
+    .info{
+        font-size: 12px;
+    }
+}
+@media (max-width:420px){
+    .navbar ul li a{
+        font-size: 8px;
+        
+    }
+    
+    .info{
+        font-size: 8px;
+    }
+}

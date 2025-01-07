@@ -1,0 +1,36 @@
+.ak{
+display: flex;
+justify-content: center;
+
+
+
+
+}
+.l{
+    background-color: #FB2E86;
+    height: 50px;
+    width: 170px;
+    border: none;
+    margin-left: 15%;
+ margin-top: 214%; 
+ font-size: 17px;
+ color: white;
+ font-family: Arial, Helvetica, sans-serif;
+cursor: pointer;
+}
+.ap{
+    display: flex;
+    overlay:auto ;
+ 
+    background-image: url("/bgh.png");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width:1200px ;
+display: flex;
+justify-content: center;
+margin-left :20%;
+
+}
+.mkl0{
+    background-color: #F1F0FF;
+}

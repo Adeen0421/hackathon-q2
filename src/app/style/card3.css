@@ -1,0 +1,118 @@
+.mcars3{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   
+    margin-top: 30px;
+    margin-left:20%;
+    margin-right:20% ;
+   
+
+  }
+
+  .car-card3{
+    width:90%;
+    background-color: #F6F7FB;
+
+    padding: 0px;
+    margin-bottom: 20px;
+  border-style:solid;
+  border-color: rgb(243, 242, 242);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+  cursor: pointer;
+  }
+
+
+ 
+  .car-card3 h3{
+    margin-top: 10px;
+    color:#151875;    
+   
+    font-size: 25px;
+  }
+  .car-card3 p{
+    color: #151875;
+
+    font-size: 14px;
+   
+  }
+
+.car-card3 .pri{
+font-size: 20px;
+font-weight: bold;
+
+color: #151875;
+
+}
+.car-card3 .pri2{
+    font-size: 20px;
+    font-weight: bold;
+    
+    color: #1518754D;
+    
+    }
+.att{
+background-color: white;
+
+}
+.me{
+    display: flex;
+    justify-content: center;
+}
+
+
+.car-card3 img{
+  width: 200px;
+  height:200px;
+border-radius: 8px;
+  transition: background-color 0.3s ease;
+  
+  margin: 40px;
+
+  -webkit-transform: scale(1.5);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
+}
+
+.mui{
+    display: flex;
+  gap: 40px;
+    cursor: pointer;
+    margin-right: 150px;
+    margin-left:20%;
+    margin-top: 2%;
+}
+.ui{
+    background-color:#EEEFFB;
+    width: 550px;
+    height: 300px;
+  
+}
+.ui h2{
+    color: #151875;
+    font-size:30px;
+    margin-left: 20px;
+}
+.ui a{
+    color: #FB2E86;
+    margin-left: 20px;  
+    font-size: 20px;
+}
+.ui img{
+    float: right;
+}
+.aty{
+    width: 300px;
+    height: 92px;
+
+    
+}
+.aty img{
+    float: left;
+    background-color:#EEEFFB;
+    margin-right: 10px;
+}

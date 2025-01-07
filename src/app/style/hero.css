@@ -1,0 +1,157 @@
+.hr{
+  caret-color: transparent;
+  
+}
+.bulb{
+    
+float: left;
+margin-bottom: 10%;
+}
+.aapp{
+  display: none;
+
+}
+.sofa{
+    float: right;
+    margin-right: 0%;
+    margin-top: 2%;
+    
+    
+}
+.ht{
+    padding: 10%;
+
+  background-color: #F2F0FF;
+  
+}
+.ht p{
+margin-right: 600px;
+margin-left:270px ;
+
+}
+.p{
+    color: #FB2E86;
+    font-size: 16px;
+    font-weight: 700;
+    font-family:Arial;
+
+}
+.g{
+    color:#8A8FB9;
+    font-size: 16px;
+    font-weight: 700;
+    font-family:Arial;
+}   
+    .ha{
+        font-family: Arial;
+        font-size: 53px;
+       margin-left: 14%;
+    }
+.b1{
+  margin-top:-14.5%;
+  margin-left: 35%;
+  margin-bottom:10%;
+}
+    .b12{
+        background-color: #FB2E86;
+        border: none;
+        color:white;
+        padding: 18px 40px;
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 2px;
+        cursor: pointer;
+
+    }
+
+    .di{
+        display: flex   ;
+        justify-content:center;
+        color: #FB2E86;
+      margin-bottom:10%   ;
+      background-color:#F2F0FF;
+        gap: 10px;
+        cursor: pointer;
+
+    }
+    
+    .ty{
+     color: #151875;
+     
+     display: flex;
+    justify-content: center;
+    }
+    .tt{
+        display: flex;
+       gap: 60px;
+       justify-self:center;
+    }
+    .tt li{
+        list-style: none;
+        
+       
+    }
+
+    .tt li a{
+        text-decoration: none;
+        color:#151875;
+      
+        font-size: 20px ;
+    }
+    .tt li a:hover{
+      color:#FB2E86;
+    }
+
+
+    /* Advantages */
+
+    .advantage-item img {
+        width: 100px; /* Ensure images fill the item container */
+        height: auto; /* Maintain aspect ratio */
+        
+      }
+      .advantage-item {
+        text-align: center;
+        flex: 1; /* Allows the item to grow and shrink, filling available space */
+        min-width: 150px; /* Prevent the item from shrinking too small */
+        max-width: 400px; /* Adjust based on the design to prevent the items from growing too large */
+        box-sizing: border-box; /* Ensure padding and borders are included in the width */
+        margin-right:20px;
+      
+      margin: 3%;
+      box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+   
+       
+  
+      }
+
+      .advantage-items {
+        display: flex;
+        flex-wrap: nowrap; /* Ensure all items stay in one row */
+        justify-content:space-between; /* Add space between items to evenly distribute them */
+        align-items: center; /* Center items vertically */
+        width: 70%; /* Ensure the container takes the full width */
+       margin-left: 15%;
+       
+       
+
+      }
+      .advantage-item h3{
+        color: #151875;
+        font-family: Arial, Helvetica, sans-serif;
+      }     
+      
+      .advantage-item p{
+       font-family:Arial, Helvetica, sans-serif;
+    color: #1A0B5B4D;
+    font-weight: bold;
+      }
+
+
+   
+     .rt {
+display: flex;
+justify-content: center;
+     }
+     .rt h1{
+      color: #151875  ;}

@@ -1,0 +1,61 @@
+.c24{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+    margin-top: 30px;
+margin-left:23%;
+margin-right:20%;
+
+}
+
+
+.crd4{
+    width:269px;
+    
+   
+    background-color: #F6F7FB;
+
+    padding: 0px;
+    margin-bottom: 10px;
+ 
+border-radius: 260;
+    cursor: pointer ;
+    text-align: center;
+
+
+  }
+
+ 
+  .crd4 h3{
+    
+ font-family:"josefin Sans";
+ color: #151875;
+
+  }
+
+
+.crd4 .pr4{
+    color:#151875 ;
+   
+}
+
+
+
+
+.crd4 img{
+  width: 178px;
+  height:178px;
+
+border-radius: 0px;
+  
+  margin: 40px;
+
+
+}
+.ta4{
+    background-color: white;
+}
+
+
+
+ 

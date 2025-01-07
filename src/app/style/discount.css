@@ -1,0 +1,31 @@
+.ak{
+    display: flex;
+    justify-content: center;
+    
+    margin-left:30%;
+    
+    
+    }
+    .to{
+        background-color: #ff006f;
+        height: 57px;
+        width: 200px;
+        border: none;
+        margin-left: -250%;
+     margin-top: 217%; 
+     font-size: 17px;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    }
+    .api{
+        display: flex;
+      
+        margin-right: 50%;background-image: url("/ds.png");
+        object-fit: cover;
+        background-repeat: no-repeat;
+        width:1200px ;
+    display: flex;
+    justify-content: center;
+    margin-left: 26%;
+    }
