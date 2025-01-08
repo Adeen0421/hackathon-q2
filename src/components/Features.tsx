@@ -8,7 +8,7 @@ const features = () => {
     <div className='ap'>
       <Image 
   
-   
+   src={""}
  alt='ffgf'
       height={600}
 
