@@ -7,6 +7,7 @@ import { IoStar } from "react-icons/io5";
 import { FaCartShopping } from "react-icons/fa6";
 import { FaCircle } from "react-icons/fa6";
 import { FaHeart } from "react-icons/fa";
+import Image from 'next/image';
 const page= () => {
     const mcardata5=[
         {id:1 ,name:'Accumsan tincidunt',image:'sl1.png',price:'$42.00',price2:'$29.00'},
@@ -38,7 +39,7 @@ const page= () => {
               
              <div key={carsp.id} className='car-cardsl2'>
              
-             <img src={carsp.image} alt={carsp.name}/>
+             <Image src={carsp.image} alt={carsp.name}/>
         
               
              <div className='popsl2 '><h3 className='d60'>{carsp.name}<FaCircle color='#DE9034'className='d578' fontSize={20}/>  <FaCircle color='#EC42A2'className='d57'fontSize={20}/>  <FaCircle color='#8568FF'className='d57'fontSize={20}/></h3>

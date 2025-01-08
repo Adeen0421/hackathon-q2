@@ -29,7 +29,7 @@ export default function Home() {
             </div>
         <div className="about3">  <h1 className="about3">About Our Business</h1> 
           <p>
-            We are a leading e-commerce business dedicated to providing the best
+            We are a leading ecommerce business dedicated to providing the best
             services and products to our customers. Lorem ipsum dolor sit amet,
             consectetur adipiscing elit.
           </p>
@@ -65,8 +65,8 @@ export default function Home() {
             <h3>Selina Gomez</h3>
             <p>CEO - Tech Corp</p>
             <p>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non dui
-              ultrices quam vel id sollicitudin aliquet et ac."
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non dui
+              ultrices quam vel id sollicitudin aliquet et ac.
             </p>
           </div>
         </section>

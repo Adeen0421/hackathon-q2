@@ -1,8 +1,8 @@
-import Image from "next/image"
+
 import Link from "next/link"
 import "../app/style/navbar.css"
 import { IoMdArrowDropdown } from "react-icons/io";
-import { VscAccount } from "react-icons/vsc";
+
 import { CiHeart } from "react-icons/ci";
 import { FiShoppingCart } from "react-icons/fi";
 import { CgMail } from "react-icons/cg";

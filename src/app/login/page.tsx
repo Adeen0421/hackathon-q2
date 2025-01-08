@@ -10,7 +10,7 @@ const page = () => {
 <div className='searc96'><input type="text" placeholder=' Password'></input></div>
 <p className="ret"><a>Forget your Password?</a></p>
     <Link href={"/"} className='ret3'> <button >Sign In</button></Link>
-     <p className='ret2'>Don't have an account? <a>Create an account</a></p><br/>
+     <p className='ret2'>Dont have an account? <a>Create an account</a></p><br/>
     </div>
   )
 }

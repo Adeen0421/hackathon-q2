@@ -9,7 +9,7 @@ const features = () => {
       <Image 
   
    
- 
+ alt='ffgf'
       height={600}
 
       ></Image>

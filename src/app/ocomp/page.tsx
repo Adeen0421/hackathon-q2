@@ -1,11 +1,12 @@
 import React from "react";
 import "./module.css"
+import Image from "next/image";
 
 const OrderComplete = () => {
   return (
     <div className={'container23'}>
       <div className={'header'}>
-        <img src="/clock.png" alt="Clock Icon" className={'icon'} />
+        <Image src="/clock.png" alt="Clock Icon" className={'icon'} />
         <h1>Your Order Is Completed!</h1>
       </div>
       <p className={'message'}>

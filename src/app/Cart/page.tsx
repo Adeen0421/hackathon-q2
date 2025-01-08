@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import "./module.css"
+import Image from "next/image";
 
 export default function Cart() {
   const [cartItems, setCartItems] = useState([
@@ -46,7 +47,7 @@ export default function Cart() {
                   <tr key={item.id}>
                     <td className={'td'}>
                       <div className={'imageContainer'}>
-                        <img src={`/${item.name}.png`} alt={item.name} className={'image'} />
+                        <Image src={`/${item.name}.png`} alt={item.name} className={'image'} />
                         <div className={'itemDetails'}>
                           <p className="itemSubText1">{item.name}</p>
                           <p className={'itemSubText'}>Color: {item.color}</p>

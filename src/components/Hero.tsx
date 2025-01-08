@@ -14,6 +14,7 @@ import Discount from './Discount';
 import Card4 from './Card4';
 import Up from './Up';
 import Card5 from './Card5';
+import Image from 'next/image';
 
 
 
@@ -23,8 +24,8 @@ const Hero = () => {
 
 
       <div className='hr'><div className='aapp'>
-    <img  className="bulb" src='bulb.png' ></img> 
-    <img  className="sofa" src='sofa2.png' ></img> 
+    <Image  alt='FF'className="bulb" src='bulb.png' /> 
+    <Image   alt='FFF' className="sofa" src='sofa2.png' /> 
   
    
     <div className='ht'>
@@ -37,7 +38,7 @@ const Hero = () => {
          </div>
          </div>
         
-         <div> <img src='fopl.png'></img><div className='b1'><button className='b12'>Shop Now</button></div>     
+         <div> <Image alt='ff' src='fopl.png'/><div className='b1'><button className='b12'>Shop Now</button></div>     
          <div className='di'>   <a className='asa'><FaDiamond /> </a>
          <a><GoDiamond /> </a>
          <a><GoDiamond /> </a></div>
@@ -70,28 +71,28 @@ const Hero = () => {
  
  
  <div className="advantage-item">
-   <img src="free-delivery 1.png" alt="Innovation" ></img>
+   <Image src="free-delivery 1.png" alt="Innovation" />
    <h3>24/7 Support</h3>
    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ipsa quidem esse tempora autem 
  </p>
 </div>
 
 <div className="advantage-item">
- <img src="cashback 1.png" alt="Quality" ></img>
+ <Image src="cashback 1.png" alt="Quality" />
  <h3>24/7 Support</h3>
  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ipsa quidem esse tempora autem 
 </p>
 </div>
 
 <div className="advantage-item">
- <img src="premium-quality 1.png" alt="Experience"  ></img>
+ <Image src="premium-quality 1.png" alt="Experience"  />
  <h3>24/7 Support</h3>
  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ipsa quidem esse tempora autem  </p>
 </div>
 
 
 <div className="advantage-item">
- <img src="Group (1).png" alt="Support"></img>
+ <Image src="Group (1).png" alt="Support"/>
  <h3>24/7 Support</h3>
  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ipsa quidem esse tempora autem 
 </p>

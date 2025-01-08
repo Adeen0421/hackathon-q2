@@ -1,5 +1,6 @@
 import React from 'react'
 import "../app/style/card2.css"
+import Image from 'next/image'
 const Card2 = () => {
       
    const cardata2=[
@@ -17,7 +18,7 @@ const Card2 = () => {
         {cardata2.map((cars)=>(
         
        <div key={cars.id} className='crd'>
-       <img src={cars.image} alt={cars.name}/>
+       <Image src={cars.image} alt={cars.name}/>
     <div className='ta'>
        <h3>{cars.name}</h3>
       

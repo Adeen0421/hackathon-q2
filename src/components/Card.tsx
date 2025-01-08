@@ -1,6 +1,7 @@
 import React from 'react'
 import "../app/style/card.css"
 import { TbRectangleFilled } from "react-icons/tb";
+import Image from 'next/image';
 
 const mseries=()=>{
    
@@ -17,7 +18,7 @@ const mseries=()=>{
         {mcardata.map((cars)=>(
         
        <div key={cars.id} className='car-card'>
-       <img src={cars.image} alt={cars.name}/>
+       <Image  src={cars.image} alt={cars.name}/>
    
        <h3>{cars.name}</h3>
        <p className='aaa'><TbRectangleFilled className='gi'/><TbRectangleFilled className='pi'/>

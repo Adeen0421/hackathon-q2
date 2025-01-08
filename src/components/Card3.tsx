@@ -1,6 +1,7 @@
 import React from 'react'
 
 import "../app/style/card3.css"
+import Image from 'next/image'
 
 
 const cd3=()=>{
@@ -18,7 +19,7 @@ const cd3=()=>{
         {cad3.map((cars)=>(
         
        <div key={cars.id} className='car-card3'>
-       <img src={cars.image} alt={cars.name}/>
+       <Image src={cars.image} alt={cars.name}/>
     <div className='att'>
        <h3>{cars.name}</h3>
       
@@ -37,27 +38,27 @@ const cd3=()=>{
      <div className='ui'>
         <h2>23% off in all products</h2>
         <a href='#'>Shop now</a>
-        <img src='image 1162.png'></img>
+        <Image alt='fff' src='image 1162.png'/>
      </div>
      <div className='ui'>
         <h2>23% off in all products</h2>
         <a href='#'>View collection </a>
-        <img src='image 1161.png'></img>
+        <Image alt="vg"src='image 1161.png'/>
      </div>
 
      <div className='maty'>
         <div className='aty'>
-            <img src='image 30.png'></img>
+            <Image alt="ff" src='image 30.png'/>
             <p>Exclusive seat chair</p>
             <p>$32.00</p>
         </div>
         <div className='aty'>
-            <img src='image 19.png'></img>
+            <Image alt='ff' src='image 19.png'/>
             <p>Exclusive seat chair</p>
             <p>$32.00</p>
         </div>
         <div className='aty'>
-            <img src='image 28.png'></img>
+            <Image alt='ff' src='image 28.png'/>
             <p>Exclusive seat chair</p>
             <p>$32.00</p>
         </div>

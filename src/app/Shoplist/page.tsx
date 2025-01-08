@@ -4,6 +4,7 @@ import { MdOutlineGridView } from "react-icons/md";
 import "./module.css"
 
 import { FaCircle } from "react-icons/fa6";
+import Image from 'next/image';
 const page = () => {
   const mcardata5=[
     {id:1 ,name:'Top essentials Trends in 2021',image:'p1.png',price:'$42.00',price2:'$29.00'},
@@ -39,7 +40,7 @@ const page = () => {
         
        <div key={carsp.id} className='car-cardp'>
        
-       <img src={carsp.image} alt={carsp.name}/>
+       <Image src={carsp.image} alt={carsp.name}/>
   
         
        <div className='pop21 '><h3>{carsp.name}</h3>

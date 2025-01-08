@@ -1,5 +1,6 @@
 import React from "react";
 import "./module.css";
+import Image from "next/image";
 
 const Blog = () => {
   return (
@@ -8,7 +9,7 @@ const Blog = () => {
       <div className={'blogPosts'}>
         {[1, 2, 3].map((post, index) => (
           <div key={index} className={'post'}>
-            <img
+            <Image
               src={`/blog${index + 1}.png`}
               alt="Blog Post"
               className={'postImage'}

@@ -2,6 +2,7 @@ import React from 'react'
 import "../app/style/card5.css"
 import { FaRegCalendarAlt } from "react-icons/fa";
 import { FaPenNib } from "react-icons/fa";
+import Image from 'next/image';
 const Card5 = () => {
     const mcardata5=[
         {id:1 ,name:'Top essentials Trends in 2021',description:'More of this hello samlande lied much over tightly circa horse taped mightly',image:'b1.png',date:"21 August 2020",writter:"Sabeer Ali"},
@@ -15,7 +16,7 @@ const Card5 = () => {
         
        <div key={cars5.id} className='car-card5'>
        
-       <img src={cars5.image} alt={cars5.name}/>
+       <Image src={cars5.image} alt={cars5.name}/>
     <div className='alpp5'>   <p ><FaPenNib  className='alp5'/>{cars5.writter}<FaRegCalendarAlt className='alp55'/>{cars5.date}</p></div>
 
         

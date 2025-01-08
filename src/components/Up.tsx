@@ -7,15 +7,15 @@ const Up = () => {
       
         <div className='api2'>
       <Image 
-    alt=''
+    alt='zdvhf'
   width={0}
      src={"/up.png"}
-      height={600}
+      height={0}
 
-      ></Image>
+      />
   <div><button  className='to2'>Shop now</button></div>
       </div>
-    <div className='aao3'><img src='' ></img></div>
+    <div className='aao3'></div>
     </div>
   )
 }
