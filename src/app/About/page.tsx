@@ -2,10 +2,10 @@ import Head from "next/head";
 import "./module.css"
 export default function Home() {
   const features = [
-    { title: "Free Delivery", description: "Fast and reliable delivery.", icon: "🚚" },
-    { title: "100% Cashback", description: "Guaranteed satisfaction.", icon: "💵" },
-    { title: "Quality Products", description: "Only the best for our customers.", icon: "🏆" },
-    { title: "24/7 Support", description: "We're here to help anytime.", icon: "📞" },
+    { title: "Free Delivery", description: "Fast and reliable delivery.", icon: "" },
+    { title: "100% Cashback", description: "Guaranteed satisfaction.", icon: "" },
+    { title: "Quality Products", description: "Only the best for our customers.", icon: "" },
+    { title: "24/7 Support", description: "We're here to help anytime.", icon: "" },
   ];
 
   return (
