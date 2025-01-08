@@ -15,7 +15,7 @@ const navbar2 = () => {
 <nav>
  
 <div className="dropdown">
-  <button className="dropbtn" ><p className='a7'>Home</p>
+  <button className="dropbtn" ><p className='a66'>Home</p>
       <i className="fa fa-caret-down"></i>
     </button>
    <div className="dropdown-content">
@@ -30,7 +30,7 @@ const navbar2 = () => {
   </div> 
 <Link href={""} className='a7'>Blog</Link>
 <div className="dropdown">
-  <button className="dropbtn" ><p className='a7'>Pages</p>
+  <button className="dropbtn" ><p className='a66'>Pages</p>
       <i className="fa fa-caret-down"></i>
     </button>
    <div className="dropdown-content">
