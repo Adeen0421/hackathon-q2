@@ -8,7 +8,7 @@ import { GoDiamond } from "react-icons/go";
 import Card2 from './Card2';
 import Card3 from './Card3';
 
-import Image from 'next/image';
+
 import Features from './Features';
 import Discount from './Discount';
 import Card4 from './Card4';

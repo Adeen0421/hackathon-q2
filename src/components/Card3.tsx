@@ -1,7 +1,7 @@
 import React from 'react'
 
 import "../app/style/card3.css"
-import { TbRectangleFilled } from "react-icons/tb";
+
 
 const cd3=()=>{
    

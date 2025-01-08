@@ -3,7 +3,7 @@
 
 
 
-import Image from "next/image";
+
 import React from 'react'
 import "./module.css"
 import { MdOutlineGridView } from "react-icons/md";
