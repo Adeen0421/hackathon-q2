@@ -27,7 +27,7 @@ const Home = () => {
                 <form className={'form'} action="#" method="post">
                     <input type="text" name="name" placeholder="Your Name*" required className={'input'} />
                     <input type="text" name="subject" placeholder="Subject*" required className={'input'} />
-                    <textarea name="message"   rows="8"placeholder="Type Your Message*" required className={'textarea'}></textarea>
+                    <textarea name="message"   rows={8}placeholder="Type Your Message*" required className={'textarea'}></textarea>
                     <button type="submit" className={'button'}>Send Mail</button>
                 </form>
             </div>
