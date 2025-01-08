@@ -55,9 +55,16 @@ export default function Home() {
           <h2>What Our Clients Say</h2>
           <div className="testimonial">
             <img
-              src="abouto.png"
+              src="about.png"
               alt="Client"
               className="avatar"
+            />
+            <Image
+            src={'about.png'}
+            height={'0'}
+            width={'0'}
+            alt="af"
+
             />
             <h3>Selina Gomez</h3>
             <p>CEO - Tech Corp</p>
