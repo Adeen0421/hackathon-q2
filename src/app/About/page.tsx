@@ -18,7 +18,7 @@ export default function Home() {
         {/* About Section */}
         <section className="section1" id="about">
      <div className="at9">
-            <img src="about.png" className="aboutimg"></img>
+         
             <Image
             className="aboutimg"
           height={"0"}
@@ -54,11 +54,7 @@ export default function Home() {
         <section className="section" id="testimonials">
           <h2>What Our Clients Say</h2>
           <div className="testimonial">
-            <img
-              src="about.png"
-              alt="Client"
-              className="avatar"
-            />
+      
             <Image
             src={'about.png'}
             height={'0'}
