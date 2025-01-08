@@ -13,7 +13,7 @@ export default function Cart() {
     { id: 5, name: "Proin pharetra elementum", price: 32.0, color: "Brown", size: "XL", quantity: 1 },
   ]);
 
-  const handleQuantityChange = (id, value) => {
+  const handleQuantityChange = (id: string | number, value: string) => {
     const quantity = Math.max(1, parseInt(value) || 1);
     setCartItems((prevItems) =>
       prevItems.map((item) =>
