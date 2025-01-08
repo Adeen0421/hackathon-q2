@@ -1,5 +1,6 @@
 import Head from "next/head";
 import "./module.css"
+import Image from 'next/image'
 export default function Home() {
   const features = [
     { title: "Free Delivery", description: "Fast and reliable delivery.", icon: "" },
@@ -18,6 +19,13 @@ export default function Home() {
         <section className="section1" id="about">
      <div className="at9">
             <img src="about.png" className="aboutimg"></img>
+            <Image
+            className="aboutimg"
+          height={"0"}
+          src={"/about.png"}
+          width={"0"}
+          alt="sf"
+            />
             </div>
         <div className="about3">  <h1 className="about3">About Our Business</h1> 
           <p>
